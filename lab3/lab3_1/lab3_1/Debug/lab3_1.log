@@ -1,0 +1,7 @@
+﻿  lab3_1.cpp
+c:\users\macos\documents\visual studio 2015\projects\laboratoria\lab3\lab3_1\lab3_1\lab3_1.cpp(16): warning C4305: '=': truncation from 'double' to 'float'
+c:\users\macos\documents\visual studio 2015\projects\laboratoria\lab3\lab3_1\lab3_1\lab3_1.cpp(83): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\macos\documents\visual studio 2015\projects\laboratoria\lab3\lab3_1\lab3_1\lab3_1.cpp(96): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\macos\documents\visual studio 2015\projects\laboratoria\lab3\lab3_1\lab3_1\lab3_1.cpp(97): warning C4305: 'argument': truncation from 'double' to 'float'
+  lab3_1.vcxproj -> C:\Users\macos\Documents\Visual Studio 2015\Projects\laboratoria\lab3\lab3_1\Debug\lab3_1.exe
+  lab3_1.vcxproj -> C:\Users\macos\Documents\Visual Studio 2015\Projects\laboratoria\lab3\lab3_1\Debug\lab3_1.pdb (Full PDB)

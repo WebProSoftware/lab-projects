@@ -1,0 +1,5 @@
+﻿  lab1_6.cpp
+c:\users\macos\documents\visual studio 2015\projects\laboratoria\lab1\lab1_6\lab1_6\lab1_6.cpp(17): warning C4018: '<': signed/unsigned mismatch
+c:\users\macos\documents\visual studio 2015\projects\laboratoria\lab1\lab1_6\lab1_6\lab1_6.cpp(26): warning C4018: '<': signed/unsigned mismatch
+  lab1_6.vcxproj -> C:\Users\macos\Documents\Visual Studio 2015\Projects\laboratoria\lab1\lab1_6\Debug\lab1_6.exe
+  lab1_6.vcxproj -> C:\Users\macos\Documents\Visual Studio 2015\Projects\laboratoria\lab1\lab1_6\Debug\lab1_6.pdb (Full PDB)
