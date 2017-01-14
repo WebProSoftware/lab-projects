@@ -22,7 +22,7 @@ public:
 
 
 //klasa pochodna prostok¹ta
-class rect : private shape_geom
+class rect : public shape_geom
 {
 private:
 	double a, b;
