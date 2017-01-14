@@ -48,7 +48,7 @@ int main()
 	tab[1] = CNodCoord(1.0, 2.0, 0.0, 1);
 	tab[2] = CNodCoord(3.0, 2.0, 0.0, 2);
 
-	for (int i = 0; i < size(tab); i++)
+	for (int i = 0; i < 3; i++)
 	{
 		tab[i].Disp();
 	}
@@ -83,7 +83,7 @@ int main()
 	
 	CNodCoord * list = new CNodCoord[n];
 	int i = 0;
-	for (int x = 1; x <= n; x++)
+	for (int x = 0; x < n; x++)
 	{
 		fi = 2 * M_PI * (x-1)/n;
 		pointX = r * cos(fi) + 0; // 0 to x - kola
