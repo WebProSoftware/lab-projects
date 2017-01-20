@@ -24,12 +24,42 @@
     <ClInclude Include="targetver.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="PERSONEL.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PRACOWNIK.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SPRZEDAWCA.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DYREKTOR.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DYREKTOR_HANDL.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="lab8_1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PERSONEL.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PRACOWNIK.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SPRZEDAWCA.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DYREKTOR.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DYREKTOR_HANDL.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
