@@ -2,54 +2,59 @@
 //
 
 #include "stdafx.h"
-#include <iostream>
+#include "Figura.h"
+#include "Rectangle.h"
+#include "Circle.h"
+#include "Triangle.h"
 
+#include <iostream>
+#include <time.h>
 using namespace std;
 
-class Figura
-{
-public:
-	static int alloc;
-protected:
-	double s;
-public:
-	Figura(){ Figura::alloc++; }
-	virtual void area() = 0;
-	virtual void disp() = 0;
-};
-
-class Rectangle :
-	public Figura
-{
-	double *dat;
-public:
-	Rectangle();
-	~Rectangle();
-	Rectangle(int aa, int bb);
-
-};
-
-Rectangle::Rectangle()
-{
-	try
-	{
-		this->dat = new double[2];
-		this->dat[0] = 1;
-		this->dat[1] = 2;
-
-	}
-	catch (bad_alloc)
-	{
-		cout << "Bad alloc" << endl;
-		exit(1);
-	}
-}
+size_t Figura::alloc = 0;
 
 int main()
 {
 
-	Figura *prt, *prt_rect;
+	Figura *prt = NULL, *prt_rect = NULL;
+	prt_rect = new Rectangle(2, 3);
 
+	Circle c1(2), cl1(3); 
+	Triangle tr(2, 4);
+
+	srand(time(NULL));
+
+	for (int it = 0; it < 10; it++)
+	{
+		int ind = rand() % 4;
+
+		switch (ind)
+		{
+		case 0:
+			prt = &c1;
+			break;
+		case 1:
+			prt = &cl1;
+			break;
+		case 2:
+			prt = &tr;
+			break;
+		case 3:
+			prt = prt_rect;
+			break;
+		default:
+			break;
+		}
+
+		prt->area();
+		prt->disp();
+	}
+
+	delete prt_rect;
+	prt_rect = NULL;
+
+	if (Figura::alloc)
+		cout << "!!!!!!!!!!!!!!!!!!!!!!!!!!!!\n error: leak of memory\n";
 
 	system("pause");
      return 0;
