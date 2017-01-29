@@ -1,0 +1,5 @@
+52 1 Polska-Wlochy 4.5 2.6 6.3 -1
+56 2 Wisla-Krakowia 5.6 2.6 6.2 -1
+56 2 Polska-Rosja 2.4 5.2 -1
+2 3 AdamMalysz 2.5 -1
+21 3 KamilStoch 4.2 1

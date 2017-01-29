@@ -1,0 +1,32 @@
+#list_komunikator
+#komunikaty od 1 - info
+#komunikaty od 2 - warning
+#komunikaty od 3 - error
+#
+100 : Zalogowany jako 
+101 : Podaj numer ID uzytkownika 
+102 : Wczytano baze danych poprawnie
+103 : Usunieto wszystkie elementy
+104 : Dodawanie nowego zakladu (podaj bez spacji i odstepow)
+105 : Jakiego typu bedzie to zaklad
+106 : Wprowadz nazwe zakladu
+107 : Podaj kurs 1
+108 : Podaj kurs X
+109 : Podaj kurs 2
+110 : Podaj kurs na zwyciestwo 
+111 : Obiekt zostal dodany poprawnie
+112 : Wpowadz id zakladu ktore chcesz usunac
+113 : Usunieto
+120 : Dodano wynik
+114 : Nie ma takiego id
+115 : Wprowadz id zakladu dla ktorego ustawiamy wynik
+116 : Wprowadz wynik (pilkarski 1/0/2, koszykowka 1/2, skoki 1)
+#
+200 : Bledna wartosc podana w menu. Wprowadz jeszcze raz. 
+201 : Nie ma takiego uzytkownika
+202 : Brak elementu
+203 : Nie ma takiego typu wybierze od 1-3
+#
+300 : Za duzo ilosc prob logowania
+301 : Program zostanie zamkniety
+302 : Do widzenia
